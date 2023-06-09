@@ -1,38 +1,18 @@
-# Project Title: Améliorez le produit IA de votre start-up
+# Improving the AI Product of Your Startup
 
-This project aims to enhance the AI product of the startup "Avis Restau" by introducing a new collaboration feature. The goal is to allow users to post reviews and photos of their favorite restaurants while enabling the company to gain better insights into user-generated reviews.
+## Introduction
+Welcome to the project "Improving the AI Product of Your Startup." In this project, you are an AI Engineer working for the startup "Avis Restau," which connects customers with restaurants. Your company aims to enhance its platform by introducing a new collaboration feature, allowing users to post reviews and photos of their favorite restaurants. Additionally, the company wants to gain better insights into the user-posted reviews.
 
-## Use Case
+## Problem Statement and Objective
+The primary objective of this project is to conduct a feasibility study for two specific functionalities: detecting dissatisfaction topics in user comments and automatically labeling the photos posted on the platform. To achieve this, you need to analyze existing data and collect new data to train your AI models.
 
-As a user of Avis Restau, I can:
-- Post reviews in the form of comments.
-- Upload photos taken at the restaurant.
-
-As Avis Restau, we want to:
-- Detect dissatisfaction topics from the comments posted on the platform.
-- Automatically label the photos posted on the platform, such as identifying food-related photos, restaurant decor, or exterior views.
-
-## Project Scope
-
-The project scope includes:
-- Preliminary study of the "Detect dissatisfaction topics" and "Automatically label posted photos" features.
-- Dataset exploration and selection.
-
-## Dataset
-
-Problem: Insufficient data on the Avis Restau platform.
-Solution: Utilize an existing dataset.
-Dataset Link: [Yelp Dataset](https://www.yelp.com/dataset)
-The dataset contains general information (e.g., cuisine type) and consumer reviews for different restaurants.
-Due to the dataset's volume, refer to [this article](https://example.com) for instructions on how to load it completely.
+## Overview of the Dataset
+The problem statement highlights that there is insufficient data available on the Avis Restau platform. Therefore, the solution is to utilize an existing dataset. The recommended dataset for this project is the Yelp dataset, which contains general information about restaurants, including consumer reviews. You can access the dataset through the following link: [https://www.yelp.com/dataset](https://www.yelp.com/dataset)
 
 ## Data Collection
-
-Problem: Ensure the possibility of collecting new data.
-Solution: Collect new data using the Yelp API. Validate the feasibility by collecting information about approximately 200 restaurants for a specific city using the API.
-API Documentation: [Yelp API Documentation](https://example.com)
+As part of the project, you also need to address the issue of collecting new data. To achieve this, the solution proposed is to collect data through the Yelp API. The feasibility of this approach will be validated by collecting information for approximately 200 restaurants in a specific city using the API. You can refer to the Yelp API documentation for more details on how to collect the data.
 
 ## Tools
+The project will be implemented using Python along with specialized NLP (Natural Language Processing) and CV (Computer Vision) libraries. Jupyter Notebook and the Voilà package will be utilized for development and creating an interactive web page for visualizations.
 
-- Python and specialized NLP/CV libraries.
-- Jupyter Notebook and Voilà package.
+By following the outlined steps and methodologies, you aim to analyze negative comments to detect various dissatisfaction topics, process and reduce the dimensionality of textual data, analyze photos to identify their categories, and validate the feasibility of subsequent supervised classification. The collected data will be stored in a usable format, and your work will be presented through a self-explanatory Jupyter Notebook, a web page with graphical representations using the Voilà package, and a support material for the oral presentation.
